@@ -1,0 +1,15 @@
+automations:
+  - name: Terminal 1
+    action: openTerminal
+    args:
+      command: "cd limbo && java -jar server.jar"
+
+  - name: Terminal 2
+    action: openTerminal
+    args:
+      command: "cd server && java -jar server.jar"
+
+  - name: Terminal 3
+    action: openTerminal
+    args:
+      command: "cd velocity && java -jar server.jar"
